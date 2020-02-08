@@ -9,9 +9,10 @@ public class MergeSort {
     public static Random random = new Random();
     public static int numTrials = 50;
     public static void main(String[] args) {
-	int n = 10;  
-	int choice = 1 + random.nextInt(6);
-	int T= 4;
+	int n = 13;  
+	// int choice = 1 + random.nextInt(6);
+	int choice = 4;
+	int T= 7;
 	if(args.length > 0) { n = Integer.parseInt(args[0]); }
 	if(args.length > 1) { choice = Integer.parseInt(args[1]); }
         int[] arr = new int[n];
