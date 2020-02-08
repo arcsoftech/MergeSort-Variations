@@ -55,7 +55,7 @@ public class MergeSort {
 	timer.scale(numTrials);
 
 	System.out.println("Choice: " + choice + "\n" + timer);
-	System.out.println("Arrau size is "+n+"\n");
+	System.out.println("Array size is "+n+"\n");
     }
 
     public static void insertionSort(int[] arr,int p , int r) { 
