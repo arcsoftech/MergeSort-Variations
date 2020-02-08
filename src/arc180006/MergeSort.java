@@ -82,8 +82,6 @@ public class MergeSort {
 
 	}
 	
-
-	
 	public static void mergeSort3(int[] A, int[] B, int p, int r) {
 
 		if (p < r)
