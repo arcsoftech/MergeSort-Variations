@@ -56,8 +56,7 @@ class MergeSortTest {
 	@Test
 	void testTake6() {
 		Random r = new Random();
-//		int n = 1 +  r.nextInt(1000);
-		int n = 13;
+		int n = 1 +  r.nextInt(1000);
 		int[] arr = getArray(n);
 		Shuffle.shuffle(arr);
 		MergeSort.mergeSort6(arr, 7);
