@@ -119,14 +119,14 @@ public class MergeSort {
 			for(int j = 0; j < n; j = j+2*i){
 				int q = (j+i-1)>(n-1)?n-1:j+i-1;
 				int r = (j+2*i-1 )> (n-1) ? n-1 : j+2*i-1 ;
-				merge3(B, A, j, q, r);
+				merge3(B, inp, j, q, r);
 			}
-			int[] t = A; 
-			A = B;
+			int[] t = inp; 
+			inp = B;
 			B = t;
 		} 
 		if (A != inp)
-		System.arraycopy(inp, 0, A, 0, inp.length);		
+			System.arraycopy(inp, 0, A, 0, inp.length);		
     }
 
 
