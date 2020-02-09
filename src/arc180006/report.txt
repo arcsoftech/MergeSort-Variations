@@ -1,0 +1,10 @@
+
+
+We ran different implementations of merge sort for the array size of 16,000,000 32,000,000 64,000,000 128,000,000 
+respectively
+The running time output can be found in output.txt file
+
+The average running time, as expected, generally decreases when running from choice 1 to choice 4 as we make 
+more and more improvement to the merge sort algorithm from choice 1 to choice 4.
+Choice 2 and choice 3 have the least difference in running time and always faster than choice 1.
+Choice 4 implements iterative - bottom up approach and is generally faster than the first 3 implementations

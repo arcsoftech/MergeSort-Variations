@@ -1,7 +1,8 @@
-# Short Project 2
+# Short Project 3
 
-# BoundedQueue
-This is the short project in IDSA class that aims to implement bounded sized queue.
+# Merge Sort
+ This program runs merge sort algorithm with multiple implementations
+ For each execution, the program runs 1 implementation 50 times and outputs the average run time
 
 ## Group Members
 1. Arihant Chhajed
@@ -15,9 +16,26 @@ This is the short project in IDSA class that aims to implement bounded sized que
 
     Compile : `javac -d bin arc180006/*.java`  <br />
     ChangeDirectory: `cd bin`
-    Run: ` java arc180006.BoundedQueue` <br />
-    Sample input: `2 3 2 3 5 6 `
-
-3. Enter the operation no. to initiate the operation.
+    Run: ` java arc180006.MergeSort <array size> <implementation options from 1 to 4>` <br />
+    Sample commands: 
+    Example of commands:
+        javac -d bin arc180006/*.java 
+        cd bin
+        java arc180006.MergeSort 16000000 1 >> ../output.txt 
+        java arc180006.MergeSort 16000000 2 >> ../output.txt 
+        java arc180006.MergeSort 16000000 3 >> ../output.txt 
+        java arc180006.MergeSort 16000000 4 >> ../output.txt 
+        java arc180006.MergeSort 32000000 1 >> ../output.txt 
+        java arc180006.MergeSort 32000000 2 >> ../output.txt 
+        java arc180006.MergeSort 32000000 3 >> ../output.txt 
+        java arc180006.MergeSort 32000000 4 >> ../output.txt 
+        java arc180006.MergeSort 64000000 1 >> ../output.txt 
+        java arc180006.MergeSort 64000000 2 >> ../output.txt 
+        java arc180006.MergeSort 64000000 3 >> ../output.txt 
+        java arc180006.MergeSort 64000000 4 >> ../output.txt 
+        java arc180006.MergeSort 128000000 1 >> ../output.txt 
+        java arc180006.MergeSort 128000000 2 >> ../output.txt 
+        java arc180006.MergeSort 128000000 3 >> ../output.txt 
+        java arc180006.MergeSort 128000000 4 >> ../output.txt 
 
 

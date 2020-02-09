@@ -2,7 +2,7 @@
 
 #  MergeSort
 #  This program runs merge sort algorithm with multiple implementations
-#  For each execution, the program runs 1 implementation 50 times and outputs the average run time
+#  Every time the program will run with 1 implementation 50 times and output the average run time
 
 ## Group Members
 1. Arihant Chhajed
