@@ -1,0 +1,80 @@
+Choice: 1
+Time: 3827 msec.
+Memory: 124 MB / 256 MB.
+Array size is 16000000
+
+Choice: 2
+Time: 3720 msec.
+Memory: 124 MB / 256 MB.
+Array size is 16000000
+
+Choice: 3
+Time: 3718 msec.
+Memory: 124 MB / 256 MB.
+Array size is 16000000
+
+Choice: 4
+Time: 3397 msec.
+Memory: 124 MB / 256 MB.
+Array size is 16000000
+
+Choice: 1
+Time: 8290 msec.
+Memory: 247 MB / 256 MB.
+Array size is 32000000
+
+Choice: 2
+Time: 7710 msec.
+Memory: 247 MB / 256 MB.
+Array size is 32000000
+
+Choice: 3
+Time: 7504 msec.
+Memory: 247 MB / 256 MB.
+Array size is 32000000
+
+Choice: 4
+Time: 6908 msec.
+Memory: 247 MB / 256 MB.
+Array size is 32000000
+
+Choice: 1
+Time: 16017 msec.
+Memory: 491 MB / 501 MB.
+Array size is 64000000
+
+Choice: 2
+Time: 15142 msec.
+Memory: 491 MB / 501 MB.
+Array size is 64000000
+
+Choice: 3
+Time: 15506 msec.
+Memory: 491 MB / 501 MB.
+Array size is 64000000
+
+Choice: 4
+Time: 14010 msec.
+Memory: 491 MB / 501 MB.
+Array size is 64000000
+
+Choice: 1
+Time: 35017 msec.
+Memory: 979 MB / 1234 MB.
+Array size is 128000000
+
+Choice: 2
+Time: 32478 msec.
+Memory: 979 MB / 1234 MB.
+Array size is 128000000
+
+Choice: 3
+Time: 36966 msec.
+Memory: 979 MB / 1234 MB.
+Array size is 128000000
+
+Choice: 4
+Time: 29797 msec.
+Memory: 979 MB / 1234 MB.
+Array size is 128000000
+
