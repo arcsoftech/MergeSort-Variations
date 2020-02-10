@@ -36,14 +36,17 @@ public class MergeSort {
 		
 		// start the timer
 		Timer timer = new Timer();
+		int take =2;
 		switch (choice) {
 		case 1: // merge sort 1st implementation
+			take = 2;
 			for (int i = 0; i < numTrials; i++) {
 				Shuffle.shuffle(arr);
 				mergeSort2(arr, new int[arr.length], 0, arr.length - 1);
 			}
 			break;
 		case 2: // merge sort 2nd implementation without creating array B for every recursive call
+			take = 3;
 			for (int i = 0; i < numTrials; i++) {
 				Shuffle.shuffle(arr);
 				int[] B = new int[arr.length];
@@ -53,6 +56,7 @@ public class MergeSort {
 			break;
 
 		case 3: // merge sort 3rd implementation without copy array A to array B for every recursive call
+			take = 4;
 			for (int i = 0; i < numTrials; i++) {
 				Shuffle.shuffle(arr);
 				int[] B = new int[arr.length];
@@ -61,6 +65,7 @@ public class MergeSort {
 			}
 			break;
 		case 4: // merge sort 4th implementation - bottom up iteration instead of top down recursion
+			take = 6;
 			for (int i = 0; i < numTrials; i++) {
 				Shuffle.shuffle(arr);
 				mergeSort6(arr, T);
@@ -71,7 +76,7 @@ public class MergeSort {
 		timer.scale(numTrials);
 		
 		// print out results
-		System.out.println("Choice: " + choice + "\n" + timer);
+		System.out.println("Choice: " + choice + "- take "+take+"\n" + timer);
 		System.out.println("Array size is " + n + "\n");
 	}
 
